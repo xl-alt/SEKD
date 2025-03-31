@@ -52,7 +52,7 @@ def main(args):
         model = mit_b0()
         # from CSF import build_kd_trans1
         # model = build_kd_trans1(model, 5)
-        weightspath = r'E:\开题报告文件夹\论文代码复现\TransKD-main\datalogs\VOCweed\segformerb0_nochange\Testbatch4-VOC\Baseline\model_SegformerBx1-ckpt-nonpretrained-2024-12-20_best.pth'
+        weightspath = r'./model.pth'
 
     def load_my_state_dict(model, state_dict):  # custom function to load model when not all dict elements
         own_state = model.state_dict()
@@ -103,7 +103,7 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('--distillation-type', default='student',
                         choices=['teacher', 'student', 'TransKDBase', 'TransKD_GL', 'TransKD_EA'])
-    parser.add_argument('--input_dir', default=r'E:\开题报告文件夹\论文代码复现\TransKD-main\eval\predictimg', help='输入图片文件夹路径')
+    parser.add_argument('--input_dir', default=r'.\predictimg', help='输入图片文件夹路径')
     parser.add_argument('--cpu', default=False,  action='store_true', help='是否使用CPU进行计算')
 
     main(parser.parse_args())
