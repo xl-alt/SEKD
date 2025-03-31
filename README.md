@@ -42,10 +42,10 @@ utils~=1.0.2
 
 ## Dataset
 
-the VOC2012 dataset at [http://host.robots.ox.ac.uk/pascal/VOC/voc2012/](VOC2012 Dataset).
-the Cityscapes dataset at [https://www.cityscapes-dataset.com/](Cityscapes Dataset). 
+the VOC2012 dataset at [http://host.robots.ox.ac.uk/pascal/VOC/voc2012](VOC2012 Dataset).
+the Cityscapes dataset at [https://www.cityscapes-dataset.com](Cityscapes Dataset). 
 The Sweet Pepper Dataset is currently not available for download, please contact the author for download if you need it.
-The Sugar Dataset is available at [https://www.ipb.uni-bonn.de/data/sugarbeets2016/](Sugar Dataset).
+The Sugar Dataset is available at [https://www.ipb.uni-bonn.de/data/sugarbeets2016](Sugar Dataset).
 
 ## weight
 
