@@ -5,7 +5,7 @@
 we proposed a knowledge distillation method based on features and embedding patches. This method can effectively utilize high-level feature information and the texture infor-mation of embedding patches to achieve effective distillation at different levels. In addition, we utilized the attention mechanism to enhance the effect of the distilled features, which further improves the distillation performance.
 
 <div align=center>
-	<img src="https://github.com/xl-alt/SEKD/blob/main/The%20block%20framework%20of%20the%20SEKD.PNG?raw=true" width="600">
+	<img src="https://github.com/xl-alt/SEKD/blob/main/The%20block%20framework%20of%20the%20SEKD.PNG?raw=true" width="700">
 </div>
 
 Our contributions are as follows:
@@ -51,11 +51,11 @@ The Sugar Dataset is available at [https://www.ipb.uni-bonn.de/data/sugarbeets20
 
 Pre-training weights：
 
-[Segformer weights Download](#)
+[Segformer weights Download](https://drive.google.com/drive/folders/1xcrBgv4kHD1b7ln4jeY3MAvpfQ2uxsNQ?usp=drive_link)
 
 The distillation weights we have trained can be used to reproduce the visualization in the paper:
 
-[Our weights Download](#)
+[Our weights Download](https://drive.google.com/drive/folders/1fjz1FjzXHIIPOnNIzIINhd7zH--y3YFe?usp=drive_link)
 
 
 ## Train
@@ -129,7 +129,7 @@ Due to some random operations in the training stage, reproduced results (run onc
 
 ## Acknowledgement
 
-Our code is an improvement based on [Distilling Knowledge via Knowledge Review] (https://arxiv.org/abs/2104.09044) and [TransKD] (https://arxiv.org/abs/2202.13393), thanks to them for their great work!
+Our code is an improvement based on [Distilling Knowledge via Knowledge Review](https://arxiv.org/abs/2104.09044) and [TransKD](https://arxiv.org/abs/2202.13393), thanks to them for their great work!
 
 
 
