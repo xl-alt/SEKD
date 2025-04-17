@@ -1,4 +1,4 @@
-# SegFormer-based Embedding-Patch Knowledge Distillation for High-Performance Crop Segmentation
+# A Lightweight Knowledge Distillation Framework for Fine-Grained Crop Segmentation in Precision Agriculture
 
 ## Introduction
 
