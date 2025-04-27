@@ -1,4 +1,4 @@
-# A Lightweight Knowledge Distillation Framework for Fine-Grained Crop Segmentation in Precision Agriculture
+# A Multi-Level Knowledge Distillation for Enhanced Crop Segmentation in Precision Agriculture
 
 ## Introduction
 
